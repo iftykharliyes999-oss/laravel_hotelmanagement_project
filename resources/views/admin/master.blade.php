@@ -9,7 +9,7 @@
 	<link rel="icon" href="{{asset('')}}assets/images/favicon-32x32.png" type="image/png" />
 	<!--plugins-->
 	<link href="{{asset('')}}assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet"/>
-	<link href="{{asset('')}}{{asset('')}}assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+	<link href="{{asset('')}}assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
 	<link href="{{asset('')}}assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
 	<link href="{{asset('')}}assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
 	<!-- loader-->
@@ -21,14 +21,14 @@
 	<link href="{{asset('')}}https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 	<link href="{{asset('')}}assets/css/app.css" rel="stylesheet">
 	<link href="{{asset('')}}assets/css/icons.css" rel="stylesheet">
-	
+
 	<title>Dashtreme - Multipurpose Bootstrap5 Admin Template</title>
 </head>
 
 <body class="bg-theme bg-theme2">
 	<!--wrapper-->
 	<div class="wrapper">
-		<!--start header wrapper-->	
+		<!--start header wrapper-->
 	  <div class="header-wrapper">
 		<!--start header -->
 		@include('admin.parts.header')
@@ -41,14 +41,14 @@
 		<!--start page wrapper -->
 	   @yield('content')
 		<!--end page wrapper -->
-		
+
 		<!--Start Back To Top Button--> <a href="{{asset('')}}javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
 		<!--End Back To Top Button-->
 		@include('admin.parts.footer')
 	</div>
 	<!--end wrapper-->
 	<!--start switcher-->
-	
+
     @include('admin.parts.switcher')
 	<!--end switcher-->
 	<!-- Bootstrap JS -->
