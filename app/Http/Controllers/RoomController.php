@@ -37,11 +37,10 @@ class RoomController extends Controller
         'image' => 'required|image',
     ]);
 
-    // image upload
+    
     $imageName = time().'.'.$request->image->extension();
     $request->image->move(public_path('uploads/rooms'), $imageName);
 
-    // insert data
     Room::create([
         'name' => $request->name,
         'description' => $request->description,

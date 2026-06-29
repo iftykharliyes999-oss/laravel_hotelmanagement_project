@@ -1,6 +1,7 @@
 @extends('admin.master')
 
 @section('content')
+<div style="margin-top:120px;">
 <div class="page-content">
 
 <form action="{{ route('room.store') }}" method="POST" enctype="multipart/form-data">
@@ -112,5 +113,6 @@
 
 </form>
 
+</div>
 </div>
 @endsection
