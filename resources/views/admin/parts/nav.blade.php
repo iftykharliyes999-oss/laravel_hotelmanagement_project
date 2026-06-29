@@ -17,7 +17,7 @@
                  <ul class="navbar-nav align-items-center flex-grow-1">
 
                      <li class="nav-item">
-                         <a class="nav-link d-flex align-items-center" href="{{ asset('') }}index.html">
+                         <a class="nav-link d-flex align-items-center" href="{{ route('admin.dashboard') }}">
 
                              <div class="parent-icon me-2">
                                  <i class='bx bx-home-circle'></i>
@@ -101,6 +101,20 @@
                      </li>
 
                      <li class="nav-item">
+                         <a class="nav-link d-flex align-items-center" href="{{ route('staff.index') }}">
+
+                             <div class="parent-icon me-2">
+                                 <i class='bx bx-group'></i>
+                             </div>
+
+                             <div class="menu-title d-flex align-items-center">
+                                 Staff
+                             </div>
+
+                         </a>
+                     </li>
+
+                     <li class="nav-item">
                          <a class="nav-link d-flex align-items-center" href="#">
 
                              <div class="parent-icon me-2">
@@ -118,7 +132,7 @@
         @csrf
 
         <button type="submit" class="nav-link d-flex align-items-center btn btn-link p-0">
-            
+
             <div class="parent-icon me-2">
                 <i class='bx bx-power-off'></i>
             </div>

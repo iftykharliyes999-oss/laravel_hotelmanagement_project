@@ -32,5 +32,6 @@ Route::middleware(['auth', 'role:user'])->group(function(){
 Route::prefix('admin')->group(function () {
     Route::resource('room', RoomController::class);
 });
+Route::resource('staff', StaffController::class);
 
 require __DIR__.'/auth.php';
