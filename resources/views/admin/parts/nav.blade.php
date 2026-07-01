@@ -59,7 +59,8 @@
                      </li>
 
                      <li class="nav-item">
-                         <a class="nav-link d-flex align-items-center" href="#">
+
+                         <a class="nav-link d-flex align-items-center" href="{{ route('admin.guests.index') }}">
 
                              <div class="parent-icon me-2">
                                  <i class='bx bx-group'></i>

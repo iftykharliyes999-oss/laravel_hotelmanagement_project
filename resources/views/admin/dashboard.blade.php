@@ -20,7 +20,7 @@
 									<div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 								<div class="d-flex align-items-center text-white">
-									<p class="mb-0">Total Orders</p>
+									<p class="mb-0">Total Bookings</p>
 									<p class="mb-0 ms-auto">+4.2%<span><i class='bx bx-up-arrow-alt'></i></span></p>
 								</div>
 							</div>
@@ -78,7 +78,7 @@
 						</div>
 					</div><!--end row-->
 				</div>
-				
+
 				  <div class="row">
 					<div class="col-12 col-lg-8 col-xl-8 d-flex">
 					   <div class="card radius-10 w-100">
@@ -128,14 +128,14 @@
 						</div>
 					   </div>
 					</div>
-			   
+
 					<div class="col-12 col-lg-4 col-xl-4 d-flex">
-					
+
 					   <div class="card radius-10 overflow-hidden w-100">
 						  <div class="card-body">
 							<div class="d-flex align-items-center mb-2">
 								<div>
-									<h5 class="mb-0">Weekly sales</h5>
+									<h5 class="mb-0">Weekly bookings</h5>
 								</div>
 								<div class="dropdown options ms-auto">
 									<div class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
@@ -150,8 +150,8 @@
 							</div>
 							<div class="chart-js-container2">
 							<div class="piechart-legend">
-							  <h3 class="mb-1">95K</h3>
-							  <h6 class="mb-0">Total sales</h6>
+							  <h3 class="mb-1">95 people</h3>
+							  <h6 class="mb-0">Total bookings</h6>
 							 </div>
 							  <canvas id="chart2"></canvas>
 							 </div>
@@ -235,7 +235,7 @@
 
 
 					<div class="row">
-						<div class="col-12 col-lg-12 col-xl-6">
+						{{-- <div class="col-12 col-lg-12 col-xl-6">
 						  <div class="card radius-10">
 							<div class="card-body">
 								<div class="d-flex align-items-center mb-3">
@@ -275,34 +275,34 @@
 										 <td>$2,089</td>
 										 <td><span id="trendchart2"></span></td>
 									 </tr>
-				   
+
 									 <tr>
 										 <td><i class="flag-icon flag-icon-in me-2"></i>India</td>
 										 <td>$3,039</td>
 										 <td><span id="trendchart3"></span></td>
 									 </tr>
-				   
+
 									 <tr>
 										 <td><i class="flag-icon flag-icon-gb me-2"></i>UK</td>
 										 <td>$2,309</td>
 										 <td><span id="trendchart4"></span></td>
 									 </tr>
-				   
+
 									 <tr>
 										 <td><i class="flag-icon flag-icon-de me-2"></i>Germany</td>
 										 <td>$7,209</td>
 										 <td><span id="trendchart5"></span></td>
 									 </tr>
-									 
+
 								 </tbody>
 							 </table>
 							 </div>
 						  </div>
-						</div>
-						
-						<div class="col-12 col-lg-12 col-xl-6">
+						</div> --}}
+
+						<div class="col-12 col-lg-12 ">
 						   <div class="row">
-							 <div class="col-12 col-lg-6">
+							 <div class="col-12 col-lg-12">
 							   <div class="card radius-10 overflow-hidden">
 								<div class="card-body">
 								   <p class="mb-2">Page Views</p>
@@ -318,7 +318,7 @@
 								<div class="card-body">
 								   <p class="mb-2">Total Clicks</p>
 								   <h4 class="mb-0">7,493 <small class="font-13 text-white">1.4% <i class="bx bx-up-arrow-alt"></i></small></h4>
-								   
+
 								</div>
 								<div class="chart-container-2">
 									<canvas id="chart4"></canvas>
@@ -335,7 +335,7 @@
 								</div>
 							  </div>
 							 </div>
-							 <div class="col-12 col-lg-6">
+							 {{-- <div class="col-12 col-lg-6">
 							   <div class="card radius-10">
 								<div class="card-body">
 								   <p>Device Storage</p>
@@ -347,24 +347,24 @@
 										  <div class="progress-bar bg-white" style="width:80%"></div>
 									  </div>
 								   </div>
-								   
+
 								   <div class="progress-wrapper mb-4">
 									  <p>Images <span class="float-end">10GB</span></p>
 									  <div class="progress" style="height:5px;">
 										  <div class="progress-bar bg-white" style="width:60%"></div>
 									  </div>
 								   </div>
-								   
+
 								   <div class="progress-wrapper mb-4">
 									   <p>Mails <span class="float-end">5GB</span></p>
 									  <div class="progress" style="height:5px;">
 										  <div class="progress-bar bg-white" style="width:40%"></div>
 									  </div>
 								   </div>
-								   
+
 								</div>
 							  </div>
-							 </div>
+							 </div> --}}
 						   </div>
 						</div>
 					 </div><!--End Row-->
@@ -388,7 +388,7 @@
 							 </div>
 						  </div>
 						</div>
-				  
+
 						<div class="col-12 col-lg-6 col-xl-8 d-flex">
 						   <div class="card radius-10 w-100">
 							   <div class="card-header border-bottom bg-transparent">
@@ -531,7 +531,7 @@
 						<div class="card-body">
 							<div class="d-flex align-items-center">
 								<div>
-									<h5 class="mb-0">Orders Summary</h5>
+									<h5 class="mb-0">BOOKING SUMMARY</h5>
 								</div>
 								<div class="dropdown options ms-auto">
 									<div class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
@@ -734,5 +734,5 @@
 					</div>
 			</div>
 		</div>
-    
+
 @endsection
